@@ -1,0 +1,96 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #861b1b; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do formulário */
+form {
+    margin: 20px 0;
+}
+
+/* Estilos dos botões */
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: flex-end; /* Alinha os botões à direita */
+    margin: 10px 0; /* Margem de 10px em cima e embaixo */
+}
+
+/* Estilos específicos para os botões */
+.button-entrar {
+    background-color: black;
+    color: white;
+}
+
+.button-criar-conta {
+    background-color: white;
+    color: black;
+    border: 1px solid black; /* Borda preta para o botão "Criar Conta" */
+}
+
+/* Estilos da seção de novidades */
+.novidades {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.novidade-item {
+    margin: 20px 0;
+}
+
+/* Estilos da seção do app */
+.app {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer img {
+    margin: 10px;
+}
+
+/* Estilos para a lista de redes sociais */
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+}

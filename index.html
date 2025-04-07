@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza Hut</title>
+    <style>
+        /* Estilos para os botões */
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        .button-entrar {
+            background-color: black;
+            color: white;
+        }
+
+        .button-criar-conta {
+            background-color: white;
+            color: black;
+            border: 1px solid black; /* Adiciona uma borda ao botão "Criar Conta" */
+        }
+
+        /* Estilos para o contêiner dos botões */
+        .buttons {
+            display: flex; /* Usar flexbox para alinhar os botões */
+            justify-content: flex-end; /* Alinhar os botões à direita */
+            margin: 10px 0; /* Margem de 10px em cima e embaixo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo-ph-horizontal.png" alt="Pizza Hut Logo" style="width: 250px; height: auto;">
+        </div>
+        <h1>Peça sua pizza em casa ou retire na loja mais próxima</h1>
+        <form>
+            <label for="cep">Informe seu CEP:</label>
+            <input type="text" id="cep" placeholder="Digite seu CEP" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <div class="buttons">
+            <button class="button button-entrar">Entrar</button>
+            <button class="button button-criar-conta">Criar Conta</button>
+        </div>
+    </header>
+
+    <section class="novidades">
+        <h2>Temos novidades saindo do forno</h2>
+        <img src="./img/banner.png" alt="banner">
+        <div class="novidade-item">
+            <img src="./img/peperoni.jpg" alt="Nova Pizza">
+            <h3>Pizza de Pepperoni</h3>
+            <p>Experimente nossa nova pizza de pepperoni, feita com ingredientes frescos e saborosos!</p>
+        </div>
+        <div class="novidade-item">
+            <img src="./img/transferir.jpg" alt="Nova Bebida">
+            <h3>Bebida Gelada</h3>
+            <p>Combine sua pizza com uma bebida gelada e aproveite o melhor sabor!</p>
+        </div>
+    </section>
+
+    <section class="app">
+        <h2>Já baixou nosso app?</h2>
+        <p>Baixe agora lendo o QR code ao lado e tenha acesso a preços e promoções exclusivas.</p>
+        <img src="./img/qrcode.png" alt="QR Code do App" class="qr-code">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pizza Hut. Todos os direitos reservados.</p>
+        <img src="./img/app-store.png" alt="app-store">
+        <img src="./img/play-store.png" alt="play-store">
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
